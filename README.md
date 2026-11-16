@@ -1,27 +1,26 @@
-﻿# Reto calendario — mes de número a letra
+# Reto calendario — mes en letra
 
-Introduce un número (1–12) y muestra el nombre del mes y sus días.
+Escribes 1–12 y te dice el nombre del mes y cuántos días tiene.
 
 ## Qué hace
 
-- Array de objetos mes (número, nombre, días)
+- Array de objetos mes
 - Busca con `findIndex`
 - Guías del ejercicio incluidas
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html`.
 
 Demo: https://moussijoelle.github.io/mes-de-numero-a-letra/
 
 ## Cómo lo construí
 
-- HTML + JavaScript (`app.js`)
-- Datos de los 12 meses en un array
+Datos de los 12 meses en `app.js` + validación del rango.
 
 ## Cómo verificarlo
 
-Sin tests. Pruebo meses 1, 2 y 12, y un número inválido.
+Enero, febrero y diciembre; luego un 0 o un 13.
 
 ---
 
